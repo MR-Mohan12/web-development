@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline & external CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div{
+            background-color: blueviolet;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- There are three ways to add CSS in html 
+1. INTERNAL CSS -- it means to add a style tag and place the HTML page's style within it.
+2. EXTERNAL CSS -- it means to create a .css file and place all your styles inside that .css file
+3. INLINECSS -- This is used in an HTML page using style attributes. -->
+
+      <!-- in this we are using INLINE CSS ..and this is not good practise  -->
+    <h1 style="color: aqua;">About me</h1> 
+
+    <!-- in div we used css by <style></style> tag but this is also not good techniqe to used css  -->
+    <div>I am a good boy</div>
+
+    <!-- We are used .css file for p tag this is good practise for every developer  -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellat
+      culpa cum ipsum repudiandae dolor consequuntur expedita repellendus soluta
+      accusantium?
+    </p>
+  </body>
+</html>
