@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selcetors</title>
+    <style>
+      /*  This is element selector Here, all <p> elements on the page will be center-aligned, with a red text color:  */
+      p {
+        text-align: center;
+        color: yellow;
+      }
+      /* Class selector */
+      .red {
+        background-color: red;
+      }
+      /* Id selcetor */
+      #green {
+        background-color: green;
+      }
+
+      /* Child selector  wehn we give child selecter for css always carefull only direct child is used by div another selector for css*/
+      div > p {
+        background-color: darkred;
+        color: blue;
+      }
+
+      /* Descendant Selector */
+      div p{
+        background-color: orange;
+        color: darkorchid;
+      }
+      /*  Universal Selcetor */
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      /* Psedueo Selector */
+  a:visited{
+    color: palevioletred;
+  }
+
+  a:link{
+    color: green;
+  }a:active{
+    background-color: black;
+  }
+  a:hover{
+    background-color: crimson;
+  }
+    </style>
+  </head>
+  <body>
+    <!-- CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value 
+          #id	#firstname	Selects the element with id="firstname"
+          .class	.intro	Selects all elements with class="intro"
+           element.class	p.intro	Selects only <p> elements with class="intro"
+           *		Selects all elements
+           element	p	Selects all <p> elements
+           element,element,..	div, p	Selects all <div> elements and all <p> elements  -->
+
+    <p>This is a paragraph</p>
+    <div class="red">I am a div</div>
+    <div id="green">i m second div</div>
+    <div><p>this is div and the innner is paragraph</p></div>
+    <div><article><p>hello i am para whoes in div and article</p></article></div>
+
+      <a href="https://www.google.com">Go to google</a>
+      <a href="https://www.facebook.com">Go to facebook2</a>
+
+  </body>
+</html>
