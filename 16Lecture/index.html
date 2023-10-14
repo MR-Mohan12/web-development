@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model- Margin, Padding & Borders</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        background-color: aqua;
+      }
+      .box1 {
+        color: yellow;
+        padding: 10px;
+        margin: 5px;
+        border: 2px solid blueviolet;
+        height: 200px;
+      }
+      .box2 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- In this tutorial, we are going to study the concept of the box model in CSS. The box model is a very important topic of CSS and if not understood properly, it can create a lot of confusion in the future. It is the basic framework of web development whether you are making a website using any other language such as Angular or React. The box model helps us to define the padding, border, and margin around an element. So from the above diagram we can see where all these things lie around the element. The element is in the center surrounded by padding, border and margin.
+
+These parts can be explained as-
+Content- The content of the box, where text and images appear.
+Padding- It clears an area around the content. The padding is transparent.
+Border- A border is one that covers the padding and content.
+Margin- It clears an area outside the border. The margin is also transparent. 
+
+
+-->
+
+    <div class="box box1">I am a box</div>
+    <div class="box box2">I am box second</div>
+  </body>
+</html>
