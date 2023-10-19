@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units --- px,vw,rem,em.....son on </title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   .box{
+    border: 2px solid black;
+    /* width: 233px;  */
+    /* width: 1080px; */
+    /* width: 100vw; */
+    width: 80vw;
+    margin: auto;
+    background-color: aquamarine;
+      box-sizing: border-box;
+   }
+   .container{
+    border: 2px solid black;
+    width: 80vw;
+    height: 40vh;
+    margin: 23px auto;
+    background-color: aquamarine;
+      box-sizing: border-box;
+      font-size: 19px;
+   }
+   .container p{
+    font-size: 1.5em;
+   }
+</style>
+<body>
+    <!-- CSS has several different units for expressing a length.
+
+Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.
+
+Length is a number followed by a length unit, such as 10px, 2em, etc.
+Unit	Description	
+em	Relative to the font-size of the element (2em means 2 times the size of the current font)	
+ex	Relative to the x-height of the current font (rarely used)	
+ch	Relative to the width of the "0" (zero)	
+rem	Relative to font-size of the root element	
+vw	Relative to 1% of the width of the viewport*	
+vh	Relative to 1% of the height of the viewport*	
+vmin	Relative to 1% of viewport's* smaller dimension	
+vmax	Relative to 1% of viewport's* larger dimension	
+%	Relative to the parent element -->
+    
+<div class="box">
+    This is a box
+</div>
+<div class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione, quod inventore harum saepe sequi eveniet maiores error eaque. Quisquam modi omnis molestias at consequatur iure hic culpa repellat. Maiores omnis repudiandae quia consequatur numquam nemo iste dolorem laboriosam illo.</p></div>
+
+</body>
+</html>
