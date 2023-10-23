@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shaadows and outline</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 10px 5px 5px red;
+        }
+ .text-shadow{
+    text-shadow: 15px 10px 20px red;
+    outline: 10px solid  orange;
+    
+ }
+              
+    </style>
+</head>
+<body>
+
+    <!-- box-shadow
+The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color. -->
+<!-- 
+
+CSS Outline
+An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".
+
+CSS has the following outline properties:
+
+outline-style
+outline-color
+outline-width
+outline-offset
+outline
+Note: Outline differs from borders! Unlike border, the outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline-->
+
+
+    <div class="box">I am box</div>
+    <p class="text-shadow">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae voluptate tenetur consectetur qui officia, quidem modi ullam necessitatibus corporis vitae non numquam, debitis eius, atque ipsam culpa architecto exercitationem reiciendis.</p>
+</body>
+</html>
